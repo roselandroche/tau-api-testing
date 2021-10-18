@@ -19,13 +19,19 @@
   },
   "homepage": "https://github.com/lewisPrescott707/tau-api-testing#readme",
   "dependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^7.1.1",
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "mocha": "^7.2.0",
     "nock": "^12.0.3",
     "supertest": "^4.0.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.3",
     "react-scripts": "^3.4.1"
-  }
+  },
+  "keywords": [
+    "testing",
+    "api",
+    "javascript"
+  ]
 }
