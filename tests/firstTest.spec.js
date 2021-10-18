@@ -14,7 +14,7 @@ app.get("/first", (err, res) => {
 
 // tests
 describe("first test", () => {
-  it("returns OK response", () => {
+  it("first page returns OK response", () => {
     request(app)
       .get("/first")
       .end((err, res) => {
